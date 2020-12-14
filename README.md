@@ -98,3 +98,10 @@ Please create issue or open PR request for contribution.
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
 
 refer `LICENSE` file in this repository.
+
+## Passo a passo
+1. npm i -g gatsby-cli
+2. gatsby new portfolio-apsoftware https://github.com/anubhavsrivastava/gatsby-starter-resume
+3. yarn develop
+4. Editar o config.js e o index.js
+5. yarn add @weknow/react-bubble-chart-d3
