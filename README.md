@@ -1,6 +1,6 @@
-# gatsby-starter-resume
+# portfolio-apsoftware
 
-Gatsby.js V2 starter template based on Resume by startbootstrap
+Gatsby.js V2 starter template based on Resume by startbootstrap (https://github.com/anubhavsrivastava/gatsby-starter-resume)
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
@@ -15,21 +15,21 @@ Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-r
 Make sure that you have the Gatsby CLI program installed:
 
 ```sh
-npm install --global gatsby-cli
+npm i -g gatsby-cli
 ```
 
 And run from your CLI:
 
 ```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-resume
+gatsby new <site-name> https://github.com/cpimenta-apsoftware/portfolio-apsoftware
 ```
 
 Then you can run it by:
 
 ```sh
 cd gatsby-example-site
-npm install
-gatsby develop
+yarn
+yarn develop
 ```
 
 ### Personalization
@@ -38,16 +38,16 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
+  siteTitle: 'Portfólio APSoftware', // <title>
   ...
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  firstName: 'AP',
+  lastName: 'Software',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/orgs/AP-Software-Sistemas-de-Informacao',
     }
     ...
   ],
@@ -99,9 +99,6 @@ Please create issue or open PR request for contribution.
 
 refer `LICENSE` file in this repository.
 
-## Passo a passo
-1. npm i -g gatsby-cli
-2. gatsby new portfolio-apsoftware https://github.com/anubhavsrivastava/gatsby-starter-resume
-3. yarn develop
-4. Editar o config.js e o index.js
-5. yarn add @weknow/react-bubble-chart-d3
+### Orientações seguidas no evento DoWhile
+1. Editar o config.js e componentizar o index.js
+2. yarn add @weknow/react-bubble-chart-d3 para criação do gráfico de conhecimentos
